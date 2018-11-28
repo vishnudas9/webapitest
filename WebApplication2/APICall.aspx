@@ -12,7 +12,7 @@
          $(document).ready(function () {  
              $("#Save").click(function () {  
                  var LpusWhatsApp = new Object();
-                 var broadcastdata = '[{ "phone": "919745302878", "message": "Whatsapp Test Message From LPLUS" }]';
+                 var broadcastdata = '[{ "phone": "9197453028789", "message": "Whatsapp Test Message From LPLUS" }]';
                  LpusWhatsApp.BaseData = JSON.stringify(broadcastdata);
                  LpusWhatsApp.Token = "lplus123";
                  alert(JSON.stringify(LpusWhatsApp));
